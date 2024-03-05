@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    
+}
+#nav{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    padding: 0px 30px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part1 h3{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 5px 7px;
+    font-size: 13px;
+}
+#nav-part1 i{
+    border: 1.5px solid black;
+    border-radius: 50px;
+    padding: 1px 5px;
+}
+#nav-part2 h3{
+    font-weight:500px ;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 15px;
+    font-size: 13px;
+
+}
+#signup{
+    
+    background-color: orangered;
+    border: none;
+    color: white;
+}
+#main>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position:absolute;
+    font-family:cursive;
+    font-weight: 100;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 320px;
+    width: 270px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    object-position: top;
+
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-5deg);
+}
+svg{
+    width: 10px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 90%;
+    gap: 1150px;
+}
+#icons{
+    display: flex;
+    gap: 20px;
+    padding: 0 23px;
+}
